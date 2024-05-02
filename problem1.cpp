@@ -43,8 +43,3 @@ int main() {
     
     return 0;
 }
-    cout<<sum;
-
-    
-    return 0;
-}
