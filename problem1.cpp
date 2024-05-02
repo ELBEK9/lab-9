@@ -25,6 +25,9 @@ int main() {
     adjlist[1][0]=12;
     adjlist[0][1]=12;
     
+    adjlist[5][2]=2;
+    adjlist[2][5]=2;
+    
     adjlist[5][0]=25;
     adjlist[0][5]=25;
     
@@ -35,6 +38,11 @@ int main() {
         sum=sum+adjlist[num][i];
     }
     
+    cout<<sum;
+
+    
+    return 0;
+}
     cout<<sum;
 
     
